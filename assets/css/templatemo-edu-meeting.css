@@ -44,6 +44,18 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.topdescription {
+  font-size: 20px!important;
+  font-weight: bold;
+  color: #585858!important;
+  text-transform: uppercase;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -980,14 +992,15 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content .date {
-  float: left;
+  align-content: flex-start;
   text-align: center;
   display: inline-block;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .meeting-item .down-content .date h6 {
-  font-size: 13px;
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: 600;
   color: #a12c2f;
