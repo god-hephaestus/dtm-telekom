@@ -49,8 +49,8 @@ def page_products():
     lang_id = get_lang()
     return render_template('products.html', translation = translations[lang_id])
 
-@app.route("/product-details")
-def page_products():
+@app.route("/product_details")
+def page_product_details():
     lang_id = get_lang()
     return render_template('product-details.html', translation = translations[lang_id])
 
