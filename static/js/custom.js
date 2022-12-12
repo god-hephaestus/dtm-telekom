@@ -276,7 +276,6 @@
         });
     }
 
-
 	function visible(partial) {
         var $t = partial,
             $w = jQuery(window),
